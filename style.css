@@ -311,14 +311,19 @@ body .header .header4 img:hover {
 
 .work {
     text-align: center;
-    font-size: 58px;
+    font-size: 48px;
+    font-family: "Bodoni Moda", serif;
     font-weight: 400;
     margin-bottom: 65px;
 }
 
+.ajayib{
+    margin-top: 40px;
+}
+
 .chiziq {
     width: 75%;
-    height: 2px;
+    height: 1px;
     background-color: #6d8eea;
     margin: 0 auto 65px;
 }
@@ -333,24 +338,28 @@ body .header .header4 img:hover {
 }
 
 .web-h1 {
-    font-size: 28px;
+    font-size: 24px;
+    font-family: "Bodoni Moda", serif;
     margin-bottom: 30px;
 }
 
 .web-p {
-    font-size: 20px;
+    font-size: 18px;
+     font-family: "Open Sans";
     text-transform: uppercase;
 }
 
 .squarespace-h3 {
-    font-size: 23px;
+    font-size: 20px;
+    font-family: "Bodoni Moda", serif;
     margin-bottom: 22px;
 }
 
 .squarespace-p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.8;
     margin-bottom: 25px;
+    font-family: "Open Sans";
 }
 
 .squarespace p:last-child {
@@ -385,7 +394,8 @@ body .header .header4 img:hover {
 }
 
 .experience-h1 {
-    font-size: 56px;
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
     font-weight: 400;
     margin-bottom: 25px;
 }
@@ -393,7 +403,7 @@ body .header .header4 img:hover {
 .experience-p {
     max-width: 700px;
     font-family: "Open Sans", sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 2.1;
 }
 
@@ -427,15 +437,17 @@ body .header .header4 img:hover {
 }
 
 .number-box .heading2 {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 600;
     color: #7190f0;
     margin-bottom: 20px;
+    font-family: "Bodoni Moda", serif;
 }
 
 .number-box .pragorig {
+    width: 255px;
     font-family: "Open Sans", sans-serif;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 @media (max-width: 1000px) {
