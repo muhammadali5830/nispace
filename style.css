@@ -14,15 +14,17 @@ body {
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 body .header {
     width: 100%;
     height: 70px;
     background-color: #f2f2f2;
+    position: fixed;
+    z-index: 1;
 }
 
 body .header .header1 {
@@ -253,9 +255,9 @@ body .header .header4 img:hover {
 .workskils {
     font-size: 48px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 60px;
-    font-family: "Alata", sans-serif;
+    font-family: "Bodoni Moda", serif;
 }
 
 .pagess {
@@ -289,9 +291,10 @@ body .header .header4 img:hover {
 }
 
 .select {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.8;
     max-width: 280px;
+    margin-top: 15px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -395,15 +398,19 @@ body .header .header4 img:hover {
 }
 
 .experience-btn {
-    width: 305px;
-    height: 95px;
+    width: 244px;
+    height: 76px;
     margin-top: 40px;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50px;
-    background-color: #7190f0;
+    background-color: #7190F0;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
+    font-family: "Open Sans";
     cursor: pointer;
 }
 
@@ -419,14 +426,14 @@ body .header .header4 img:hover {
     gap: 80px 70px;
 }
 
-.number-box h2 {
+.number-box .heading2 {
     font-size: 72px;
     font-weight: 600;
     color: #7190f0;
     margin-bottom: 20px;
 }
 
-.number-box p {
+.number-box .pragorig {
     font-family: "Open Sans", sans-serif;
     font-size: 21px;
 }
