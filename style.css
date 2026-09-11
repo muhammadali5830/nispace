@@ -450,6 +450,75 @@ body .header .header4 img:hover {
     font-size: 20px;
 }
 
+.experience-section {
+    width: 100%;
+    min-height: 660px;
+    background-color: #ffffff;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.experience-left {
+    width: 55%;
+}
+
+.experience-h1 {
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.experience-p {
+    max-width: 700px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    line-height: 2.1;
+}
+
+.experience-btn {
+    width: 305px;
+    height: 95px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #7190f0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.experience-btn span {
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.experience-right {
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px 70px;
+}
+
+.number-box h2 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #7190f0;
+    margin-bottom: 20px;
+}
+
+.number-box p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+}
+
 @media (max-width: 1000px) {
     .brat {
         flex-direction: column;
