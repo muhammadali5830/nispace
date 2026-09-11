@@ -476,15 +476,16 @@ body .header .header4 img:hover {
 }
 
 .need-p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
-    color: #7190f0;
+     font-family: "Bodoni Moda", serif;
+    font-size: 20px;
+    color: #000000;
     margin-bottom: 15px;
 }
 
 .lests {
     max-width: 570px;
-    font-size: 55px;
+    font-size: 48px;
+     font-family: "Bodoni Moda", serif;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 25px;
@@ -497,8 +498,8 @@ body .header .header4 img:hover {
 }
 
 .Freepik {
-    text-decoration: underline;
-    cursor: pointer;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .chiziq11 {
@@ -515,15 +516,20 @@ body .header .header4 img:hover {
 }
 
 .telfon img,
+.email img{
+}
+
+.telfon img,
 .email img {
     position: absolute;
     left: 0;
     top: 5px;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     background: #6d8eea;
     border-radius: 50%;
+    padding: 10px;
 }
 
 .telfon-p,
