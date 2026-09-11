@@ -450,7 +450,130 @@ body .header .header4 img:hover {
     font-size: 20px;
 }
 
+.together-section {
+    width: 100%;
+    min-height: 750px;
+    background-color: #F0F3FE;
+    padding: 80px 0;
+    overflow: hidden;
+}
 
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.logo-texts {
+    width: 50%;
+}
+
+.need-p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    color: #7190f0;
+    margin-bottom: 15px;
+}
+
+.lests {
+    max-width: 570px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.Images {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.Freepik {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chiziq11 {
+    width: 100%;
+    height: 1px;
+    background-color: #7190f0;
+    margin: 25px 0;
+}
+
+.telfon,
+.email {
+    position: relative;
+    padding-left: 75px;
+}
+
+.telfon img,
+.email img {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.telfon-p,
+.email-p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.heading-h4,
+.heading-hw {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.telfon .chiziq11 {
+    margin-left: -75px;
+    width: calc(100% + 75px);
+    margin-top: 25px;
+}
+
+.logo-imgs {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-imgs img {
+    width: 520px;
+    height: 590px;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+@media (max-width: 900px) {
+    .logos {
+        flex-direction: column;
+    }
+
+    .logo-texts,
+    .logo-imgs {
+        width: 100%;
+    }
+
+    .logo-imgs {
+        justify-content: center;
+    }
+
+    .lests {
+        font-size: 45px;
+    }
+
+    .logo-imgs img {
+        width: 100%;
+        max-width: 520px;
+        height: auto;
+    }
+}
 
 @media (max-width: 1000px) {
     .brat {
