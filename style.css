@@ -470,7 +470,9 @@ body .header .header4 img:hover {
 }
 
 .logo-texts {
-    width: 50%;
+    width: 570px;
+    height: 688px;
+    border-radius: 30px;
 }
 
 .need-p {
@@ -517,9 +519,11 @@ body .header .header4 img:hover {
     position: absolute;
     left: 0;
     top: 5px;
-    width: 48px;
-    height: 48px;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
+    background: #6d8eea;
+    border-radius: 50%;
 }
 
 .telfon-p,
@@ -542,15 +546,14 @@ body .header .header4 img:hover {
 }
 
 .logo-imgs {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
+    width: 570px;
+    height: 650px;
+    border-radius: 30px;
 }
 
 .logo-imgs img {
     width: 520px;
-    height: 590px;
-    object-fit: cover;
+    height: 59px;
     border-radius: 70px;
 }
 .together-section {
