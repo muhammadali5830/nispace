@@ -436,6 +436,10 @@ body .header .header4 img:hover {
     gap: 80px 70px;
 }
 
+.flex{
+    padding-top: 80px;
+}
+
 .number-box .heading2 {
     font-size: 60px;
     font-weight: 600;
@@ -548,6 +552,36 @@ body .header .header4 img:hover {
     height: 590px;
     object-fit: cover;
     border-radius: 70px;
+}
+.together-section {
+    width: 100%;
+    min-height: 700px;
+    background-color: #F0F3FE;
+    overflow: hidden;
+}
+
+.logos {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.logo-texts {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 65px 70px;
+}
+
+.logo-imgs {
+    width: 50%;
+}
+
+.logo-imgs img {
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    object-fit: cover;
+    display: block;
 }
 
 @media (max-width: 900px) {
