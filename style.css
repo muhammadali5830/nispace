@@ -39,7 +39,7 @@ body .header .header1 .header2 {
 }
 
 body .header .header1 .header3 {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin-left: -145px;
@@ -589,83 +589,672 @@ body .header .header4 img:hover {
     display: block;
 }
 
-@media (max-width: 900px) {
+.stul-section {
+    min-height: 672px;
+    background: #ffffff;
+}
+
+.stullar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.stul-text {
+    width: 52%;
+    animation: leftCome 1.3s ease forwards;
+}
+
+.get-h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.stul-text form {
+    width: 100%;
+}
+
+.input-box {
+    margin-bottom: 34px;
+}
+
+.input-box label {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 18px;
+    color: #111;
+}
+
+.input-box input {
+    width: 518px;
+    height: 55px;
+    border: none;
+     font-family: "Open Sans", sans-serif;
+    border-bottom: 2px solid #333;
+    outline: none;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #333;
+    background: transparent;
+}
+
+.input-box input::placeholder {
+    color: #999;
+}
+
+.stul-text button {
+    width: 518px;
+    height: 68px;
+    border: none;
+    border-radius: 50px;
+    background: #6f8eed;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+     font-family: "Open Sans", sans-serif;
+}
+
+.stul-text button:hover {
+    background: black;
+    color: white;
+}
+
+.freepik {
+     font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    margin-top: 42px;
+}
+
+.freepik a {
+    color: #111;
+    text-decoration: underline;
+}
+
+.stul-img {
+    width: 510px;
+    height: 483px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rightCome 1.3s ease forwards;
+}
+
+.stul-img img {
+    width: 510px;
+    height: 483px;
+    object-fit: contain;
+}
+
+
+/* CHAP TOMONDAN KELISH */
+@keyframes leftCome {
+    0% {
+        opacity: 0;
+        transform: translateX(-180px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* O'NG TOMONDAN KELISH */
+@keyframes rightCome {
+    0% {
+        opacity: 0;
+        transform: translateX(180px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: #f0f3ff;
+}
+
+
+.footer-text {
+    min-height: 425px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 120px;
+}
+
+/* CHAP TARAF */
+
+.ftext1 {
+    width: 500px;
+}
+
+.something-h1 {
+    color: #7292f5;
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    line-height: 1.05;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* IJTIMOIY TARMOQLAR */
+
+.ilova2 {
+    display: flex;
+    align-items: center;
+    gap: 1zpx;
+    margin-top: 42px;
+    padding-left: 5px;
+}
+
+.ilova2 a {
+    color: #7292f5;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ilova2 svg {
+    width: 25px;
+    height: 25px;
+    fill: currentColor;
+}
+
+/* O'NG TARAF */
+
+.ftext2 {
+    width: 350px;
+    text-align: center;
+}
+
+.contact-title {
+    color: #7292f5;
+    font-family: "Bodoni Moda", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 30px;
+}
+
+.footer-p {
+    color: #7292f5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* TAGIDAGI QORA QISM */
+
+.footer-bottom {
+    width: 100%;
+    height: 45px;
+    background-color: #333333;
+}
+
+/* RESPONSIVE */
+
+/* =========================================================
+   RESPONSIVE STYLES — max-width: 665px
+   Mavjud desktop stillarga tegmaydi, faqat shu breakpointda ishlaydi.
+   ========================================================= */
+@media (max-width: 665px) {
+ 
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+ 
+    .container {
+        padding: 15px 18px;
+    }
+ 
+    /* ---------- Header ---------- */
+    
+    .header {
+        height: 56px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .header .header1 {
+        padding: 0 16px;
+        height: 56px;
+    }
+
+    .header .header1 .header2 img {
+        width: auto;
+        height: 24px;
+    }
+
+    /* Toolbar ikonlari mobil dizaynda ko'rinmaydi (rasmdagi kabi) */
+    .header .header1 .header3 {
+        display: none;
+    }
+
+    .header .header4 img {
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        padding: 9px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        box-sizing: content-box;
+    }
+
+    /* ---------- Navbar ---------- */
+    .navbar {
+        height: auto;
+        margin-top: 60px;
+    }
+ 
+    .logo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 14px 16px;
+    }
+ 
+    .navbar-img img {
+        width: 46px;
+        height: 27px;
+    }
+ 
+    .navbar-text ul {
+        flex-wrap: wrap;
+        gap: 10px 20px;
+    }
+ 
+    .navbar-text ul li {
+        font-size: 0.85rem;
+    }
+ 
+    /* ---------- Hero (birat-section) ---------- */
+    .birat-section {
+        min-height: auto;
+    }
+ 
+    .brat {
+        flex-direction: column-reverse;
+        min-height: auto;
+        gap: 28px;
+        padding: 20px 0 30px;
+    }
+ 
+    .brat-text {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    .matt {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+ 
+    .title {
+        font-size: 19px;
+        margin-top: 8px;
+    }
+ 
+    .hire {
+        width: 100%;
+        max-width: 260px;
+        height: 58px;
+        margin: 28px auto 0;
+        font-size: 13px;
+        gap: 10px;
+    }
+ 
+    .hire img {
+        width: 22px;
+    }
+ 
+    .ilova {
+        justify-content: center;
+        margin-top: 28px;
+        gap: 16px;
+    }
+ 
+    .Image {
+        margin-top: 22px;
+        font-size: 13px;
+        text-align: center;
+    }
+ 
+    .brat-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .brat-img img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 40px;
+        padding: 0;
+    }
+ 
+    /* ---------- Skills section ---------- */
+    .skills-section {
+        min-height: auto;
+        padding: 40px 16px;
+        background: #ffffff;
+    }
+ 
+    .workskils {
+        font-size: 28px;
+        margin-bottom: 28px;
+    }
+ 
+    .pagess {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+ 
+    .ramka {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding: 24px;
+    }
+ 
+    .ramka img {
+        width: 34px;
+        margin-bottom: 14px;
+    }
+ 
+    .figma {
+        font-size: 19px;
+    }
+ 
+    .select {
+        font-size: 14px;
+        max-width: 100%;
+        margin-top: 12px;
+    }
+ 
+    /* ---------- Work Experience / Education (text-section) ---------- */
+    .text-section {
+        height: auto;
+        padding: 40px 0;
+    }
+ 
+    .work {
+        font-size: 27px;
+        margin-bottom: 28px;
+    }
+ 
+    .ajayib {
+        margin-top: 0;
+    }
+ 
+    .chiziq {
+        width: 90%;
+        margin-bottom: 32px;
+    }
+ 
+    .work1,
+    .work2,
+    .work3 {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        margin-bottom: 36px;
+    }
+ 
+    .web-h1 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+ 
+    .web-p {
+        font-size: 13px;
+    }
+ 
+    .squarespace-h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+ 
+    .squarespace-p {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 14px;
+    }
+ 
+    .squarespace p:last-child {
+        font-size: 14px;
+    }
+ 
+    /* ---------- Experience stats section ---------- */
+    .experience-section {
+        min-height: auto;
+        padding: 40px 0;
+    }
+ 
+    .experience {
+        flex-direction: column;
+        gap: 36px;
+    }
+ 
+    .experience-left,
+    .experience-right {
+        width: 100%;
+    }
+ 
+    .experience-h1 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+ 
+    .experience-p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 1.7;
+        text-align: center;
+    }
+ 
+    .experience-left .hire {
+        margin: 26px auto 0;
+    }
+ 
+    .experience-right {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 26px 14px;
+    }
+ 
+    .number-box {
+        text-align: center;
+    }
+ 
+    .number-box .heading2 {
+        font-size: 34px;
+        margin-bottom: 6px;
+    }
+ 
+    .number-box .pragorig {
+        width: 100%;
+        font-size: 13px;
+    }
+ 
+    /* ---------- Together section (contact intro) ---------- */
+    .together-section {
+        min-height: auto;
+        padding: 0;
+    }
+ 
     .logos {
         flex-direction: column;
     }
-
+ 
     .logo-texts,
     .logo-imgs {
         width: 100%;
-    }
-
-    .logo-imgs {
-        justify-content: center;
-    }
-
-    .lests {
-        font-size: 45px;
-    }
-
-    .logo-imgs img {
-        width: 100%;
-        max-width: 520px;
         height: auto;
     }
-}
-
-@media (max-width: 1000px) {
-    .brat {
-        flex-direction: column;
-        text-align: center;
+ 
+    .logo-texts {
+        padding: 34px 20px;
     }
-
-    .brat-text {
-        display: flex;
+ 
+    .need-p {
+        font-size: 15px;
+    }
+ 
+    .lests {
+        max-width: 100%;
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+ 
+    .Images {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+ 
+    .telfon,
+    .email {
+        padding-left: 58px;
+    }
+ 
+    .telfon img,
+    .email img {
+        width: 38px;
+        height: 38px;
+        padding: 8px;
+        top: 2px;
+    }
+ 
+    .telfon-p,
+    .email-p {
+        font-size: 14px;
+    }
+ 
+    .heading-h4,
+    .heading-hw {
+        font-size: 17px;
+    }
+ 
+    .telfon .chiziq11 {
+        margin-left: -58px;
+        width: calc(100% + 58px);
+        margin-top: 18px;
+    }
+ 
+    .logo-imgs img {
+        min-height: 240px;
+        height: 240px;
+        width: 100%;
+    }
+ 
+    /* ---------- Contact form (stul-section) ---------- */
+    .stullar {
+        flex-direction: column-reverse;
+        gap: 28px;
+        margin-top: 30px;
+    }
+ 
+    .stul-text {
+        width: 100%;
+    }
+ 
+    .get-h2 {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+ 
+    .input-box {
+        margin-bottom: 24px;
+    }
+ 
+    .input-box label {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+ 
+    .input-box input {
+        width: 100%;
+        height: 48px;
+        font-size: 14px;
+        padding: 0 12px;
+    }
+ 
+    .stul-text button {
+        width: 100%;
+        height: 54px;
+        font-size: 15px;
+    }
+ 
+    .freepik {
+        text-align: center;
+        font-size: 13px;
+        margin-top: 24px;
+    }
+ 
+    .stul-img {
+        width: 100%;
+        height: auto;
+    }
+ 
+    .stul-img img {
+        width: 100%;
+        max-width: 260px;
+        height: auto;
+    }
+ 
+    /* ---------- Footer ---------- */
+    .footer-text {
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        gap: 30px;
+        min-height: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
     }
-
-    .matt {
-        font-size: 70px;
-    }
-
-    .title {
-        font-size: 28px;
-    }
-
-    .brat-img img {
-        width: 450px;
-        height: auto;
-        border-radius: 100px;
-    }
-}
-
-@media (max-width: 600px) {
-    .navbar-text ul {
-        gap: 15px;
-    }
-
-    .navbar-text ul li {
-        font-size: 13px;
-    }
-
-    .matt {
-        font-size: 55px;
-    }
-
-    .title {
-        font-size: 23px;
-    }
-
-    .brat-img img {
+ 
+    .ftext1,
+    .ftext2 {
         width: 100%;
-        height: auto;
-        padding: 20px;
     }
-
-    .hire {
-        width: 230px;
-        height: 65px;
+ 
+    .something-h1 {
+        font-size: 27px;
+    }
+ 
+    .ilova2 {
+        justify-content: center;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+ 
+    .contact-title {
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+ 
+    .footer-p {
+        font-size: 15px;
+    }
+ 
+    .footer-bottom {
+        height: 28px;
     }
 }
