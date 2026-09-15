@@ -258,16 +258,15 @@ body .header .header4 img:hover {
 
 .footer {
     width: 100%;
+    height: 341px;
     background-color: #f0f3ff;
 }
 
 
 .footer-text {
-    min-height: 425px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 120px;
 }
 
 /* CHAP TARAF */
@@ -338,6 +337,7 @@ body .header .header4 img:hover {
     width: 100%;
     height: 45px;
     background-color: #333333;
+    margin-top: 45px;
 }
 
 
