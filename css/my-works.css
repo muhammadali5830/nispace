@@ -290,8 +290,141 @@ body .header .header4 img:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.pages-section{
+.pages-section {
     width: 100%;
-    height: 1239px;
-    
+    min-height: 1239px;
+    background-color: #ffffff;
+    padding: 80px 0 100px;
+}
+
+.pages-h1{
+    text-align: center;
+    padding: 0 0 70px;
+    font-size: 48px;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+}
+
+.pages-section .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    row-gap: 45px;
+}
+
+
+/* HAMMA CARD */
+
+.work-card {
+    width: 100%;
+    height: 490px;
+
+    background-color: #6f8fec;
+
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+
+/* RASM */
+
+.work-card img {
+    width: 100%;
+    height: 365px;
+
+    display: block;
+    object-fit: cover;
+}
+
+
+/* MOBILE APP / WEB DESIGN */
+
+.mobille {
+    margin: 0;
+    padding: 27px 20px 0;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+
+    color: #ffffff;
+
+    text-transform: uppercase;
+}
+
+
+/* HAPPY DAY APP */
+
+.hobbe {
+    margin: 20px 0 0;
+    padding: 0 20px;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
+
+    color: #ffffff;
+}
+
+
+/* TABLET */
+
+@media (max-width: 950px) {
+
+    .pages-section .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .work-card {
+        height: 470px;
+    }
+
+    .work-card img {
+        height: 345px;
+    }
+}
+
+
+/* TELEFON */
+
+@media (max-width: 650px) {
+
+    .pages-section {
+        padding: 60px 0;
+    }
+
+    .pages-section .container {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        gap: 35px;
+    }
+
+    .work-card {
+        max-width: 430px;
+        height: auto;
+        min-height: 460px;
+        margin: 0 auto;
+
+        padding-bottom: 30px;
+    }
+
+    .work-card img {
+        height: 340px;
+    }
+
+    .mobille {
+        font-size: 16px;
+    }
+
+    .hobbe {
+        font-size: 24px;
+    }
 }
