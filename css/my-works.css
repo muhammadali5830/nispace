@@ -568,17 +568,12 @@ body .header .header4 img:hover {
     background-color: #f0f3ff;
 }
 
-
 .footer-text {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-/* CHAP TARAF */
-
-.ftext1 {
-}
 
 .something-h1 {
     color: #7292f5;
@@ -588,8 +583,6 @@ body .header .header4 img:hover {
     font-weight: 400;
     margin: 0;
 }
-
-/* IJTIMOIY TARMOQLAR */
 
 .ilova2 {
     display: flex;
@@ -613,7 +606,6 @@ body .header .header4 img:hover {
     fill: currentColor;
 }
 
-/* O'NG TARAF */
 
 .ftext2 {
     width: 350px;
