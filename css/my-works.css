@@ -16,7 +16,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 85px
+    padding-top: 85px;
 }
 
 body .header {
@@ -153,22 +153,20 @@ body .header .header4 img:hover {
 .birat-section {
     width: 100%;
     min-height: 760px;
+    background: linear-gradient(to bottom, #ffffff 0, #ffffff 600px, #F0F3FE 600px, #F0F3FE 752px);
 }
 
 .brat {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 9rem;
     min-height: 680px;
-    gap: 50px;
 }
 
 .brat-img img {
-    width: 532px;
-    height: 659px;
-    object-fit: cover;
+    width: 483px;
+    height: 583px;
     border-radius: 100px;
-    padding: 45px;
 }
 
 .matt {
