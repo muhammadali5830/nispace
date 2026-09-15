@@ -289,3 +289,9 @@ body .header .header4 img:hover {
 .ramka:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
 }
+
+.pages-section{
+    width: 100%;
+    height: 1239px;
+    
+}
