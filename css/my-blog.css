@@ -157,6 +157,10 @@ body .header .header4 img:hover {
     margin-top: 70px;
 }
 
+.color {
+    color: #7190f0;
+}
+
 .my-blog-h1{
     text-align: center;
     font-size: 48px;

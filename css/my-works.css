@@ -600,6 +600,10 @@ body .header .header4 img:hover {
     justify-content: center;
 }
 
+.color {
+    color: #7190f0;
+}
+
 .ilova2 svg {
     width: 25px;
     height: 25px;
