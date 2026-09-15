@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alata", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 85px
+}
+
+body .header {
+    width: 100%;
+    height: 70px;
+    background-color: #f2f2f2;
+    position: fixed;
+    z-index: 1;
+}
+
+body .header .header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 10px;
+}
+
+body .header .header1 .header2 {
+    cursor: pointer;
+}
+
+body .header .header1 .header3 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: -145px;
+    margin-top: -6px;
+    gap: 8px;
+}
+
+body .header .header1 .header3 .div11 {
+    cursor: pointer;
+    background-image: url(../imgs/image\ copy\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body .header .header1 .header3 .div12,
+body .header .header1 .header3 .div13,
+body .header .header1 .header3 .div14,
+body .header .header1 .header3 .div15 {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body .header .header1 .header3 .div12 {
+    background-image: url(../imgs/image\ copy\ 8.png);
+}
+
+body .header .header1 .header3 .div13 {
+    background-image: url(../imgs/image\ copy\ 7.png);
+}
+
+body .header .header1 .header3 .div14 {
+    background-image: url(../imgs/image\ copy\ 6.png);
+}
+
+body .header .header1 .header3 .div15 {
+    background-image: url(../imgs/image\ copy\ 5.png);
+}
+
+body .header .header1 .header3 .flex1 {
+    width: 40px;
+    height: 40px;
+    background-color: #c9e4f9;
+    display: inline-block;
+    padding: 4px;
+}
+
+body .header .header1 .header3 .flex {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 4px;
+}
+
+body .header .header1 .header3 .flex:hover {
+    background-color: #e2f0fc;
+}
+
+body .header .header4 img {
+    cursor: pointer;
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+body .header .header4 img:hover {
+    background-color: #e2f0fc;
+}
+
+.navbar {
+    width: 100%;
+    height: 82px;
+    
+}
+
+.pages li {
+    font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 20px;
+}
+
+.navbar-img img {
+    cursor: pointer;
+    width: 61px;
+    height: 36px;
+}
+
+.navbar-text ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.navbar-text ul li {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar-text ul li:hover {
+    color: #7190f0;
+}
