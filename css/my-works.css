@@ -149,3 +149,88 @@ body .header .header4 img:hover {
 .navbar-text ul li:hover {
     color: #7190f0;
 }
+
+.birat-section {
+    width: 100%;
+    min-height: 760px;
+}
+
+.brat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 680px;
+    gap: 50px;
+}
+
+.brat-img img {
+    width: 532px;
+    height: 659px;
+    object-fit: cover;
+    border-radius: 100px;
+    padding: 45px;
+}
+
+.matt {
+    font-family: "Bodoni Moda", serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 1;
+    color: #000000;
+}
+
+.title {
+    font-family: "Bodoni Moda", serif;
+    font-size: 33px;
+    font-weight: 800;
+    color: #7190f0;
+    margin-top: 15px;
+}
+
+.hire {
+    margin-top: 50px;
+    width: 270px;
+    height: 82px;
+    border: none;
+    border-radius: 50px;
+    background-color: #7190f0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.hire img {
+    width: 35px;
+}
+
+.hire:hover {
+    background-color: #5678e88f;
+}
+
+.ilova {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 45px;
+    color: #8ca6f5;
+}
+
+.ilova svg {
+    cursor: pointer;
+}
+
+.Image {
+    margin-top: 45px;
+    font-size: 16px;
+}
+
+.Freepik {
+    text-decoration: underline;
+    cursor: pointer;
+}
