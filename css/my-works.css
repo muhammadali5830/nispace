@@ -428,3 +428,221 @@ body .header .header4 img:hover {
         font-size: 24px;
     }
 }
+
+
+.stul-section {
+    min-height: 672px;
+    background: #ffffff;
+}
+
+.stullar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.stul-text {
+    width: 52%;
+    animation: leftCome 1.3s ease forwards;
+}
+
+.get-h2 {
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.stul-text form {
+    width: 100%;
+}
+
+.input-box {
+    margin-bottom: 34px;
+}
+
+.input-box label {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 18px;
+    color: #111;
+}
+
+.input-box input {
+    width: 518px;
+    height: 55px;
+    border: none;
+     font-family: "Open Sans", sans-serif;
+    border-bottom: 2px solid #333;
+    outline: none;
+    font-size: 16px;
+    padding: 0 15px;
+    color: #333;
+    background: transparent;
+}
+
+.input-box input::placeholder {
+    color: #999;
+}
+
+.stul-text button {
+    width: 518px;
+    height: 68px;
+    border: none;
+    border-radius: 50px;
+    background: #6f8eed;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+     font-family: "Open Sans", sans-serif;
+}
+
+.stul-text button:hover {
+    background: black;
+    color: white;
+}
+
+.freepik {
+     font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    margin-top: 42px;
+}
+
+.freepik a {
+    color: #111;
+    text-decoration: underline;
+}
+
+.stul-img {
+    width: 510px;
+    height: 483px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rightCome 1.3s ease forwards;
+}
+
+.stul-img img {
+    width: 510px;
+    height: 483px;
+    object-fit: contain;
+}
+
+
+/* CHAP TOMONDAN KELISH */
+@keyframes leftCome {
+    0% {
+        opacity: 0;
+        transform: translateX(-180px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* O'NG TOMONDAN KELISH */
+@keyframes rightCome {
+    0% {
+        opacity: 0;
+        transform: translateX(180px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 341px;
+    background-color: #f0f3ff;
+}
+
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* CHAP TARAF */
+
+.ftext1 {
+}
+
+.something-h1 {
+    color: #7292f5;
+    font-family: "Bodoni Moda", serif;
+    font-size: 48px;
+    line-height: 1.05;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* IJTIMOIY TARMOQLAR */
+
+.ilova2 {
+    display: flex;
+    align-items: center;
+    gap: 1zpx;
+    margin-top: 42px;
+    padding-left: 5px;
+}
+
+.ilova2 a {
+    color: #7292f5;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ilova2 svg {
+    width: 25px;
+    height: 25px;
+    fill: currentColor;
+}
+
+/* O'NG TARAF */
+
+.ftext2 {
+    width: 350px;
+    text-align: center;
+}
+
+.contact-title {
+    color: #7292f5;
+    font-family: "Bodoni Moda", serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 30px;
+}
+
+.footer-p {
+    color: #7292f5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* TAGIDAGI QORA QISM */
+
+.footer-bottom {
+    width: 100%;
+    height: 45px;
+    background-color: #333333;
+    margin-top: 50px;
+}
+
+/* RESPONSIVE */
