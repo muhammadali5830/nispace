@@ -232,3 +232,60 @@ body .header .header4 img:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.skills-section {
+    width: 100%;
+    min-height: 540px;
+    padding: 50px 20px;
+    background: #F0F3FE;
+}
+
+.workskils {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: "Bodoni Moda", serif;
+}
+
+.pagess {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.ramka {
+    width: 285px;
+    height: 270px;
+    background-color: #6d8eea;
+    border-radius: 38px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.ramka img {
+    width: 44px;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+.figma {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.select {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 280px;
+    margin-top: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ramka:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+}
