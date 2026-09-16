@@ -203,7 +203,7 @@ body .header .header4 img:hover {
 .matt {
     margin: 0;
 
-    font-family: "Bodoni Moda", Georgia, serif;
+    font-family: "Open Sans", Georgia, serif;
 
     font-size: 96px;
     font-weight: 400;
@@ -365,13 +365,10 @@ body .header .header4 img:hover {
 
 .experience h2 {
     margin: 0;
-
-    font-family: "Bodoni Moda", Georgia, serif;
-
+    font-family: "Open Sans",  serif;
     font-size: 58px;
     font-weight: 400;
     line-height: 1;
-
     color: #ffffff;
 }
 
@@ -386,6 +383,10 @@ body .header .header4 img:hover {
     line-height: 1.1;
 
     color: #ffffff;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -416,7 +417,7 @@ body .header .header4 img:hover {
 .stat-item h2 {
     margin: 0;
 
-    font-family: "Bodoni Moda", Georgia, serif;
+    font-family: "Open Sans", Georgia, serif;
 
     font-size: 65px;
     font-weight: 500;
@@ -439,158 +440,3 @@ body .header .header4 img:hover {
 }
 
 
-/* =========================
-   TABLET
-========================= */
-
-@media (max-width: 1000px) {
-
-    .birat-section {
-        background: linear-gradient(
-            to bottom,
-            #ffffff 0,
-            #ffffff 700px,
-            #F0F3FE 700px,
-            #F0F3FE 100%
-        );
-    }
-
-    .brat {
-        gap: 50px;
-    }
-
-    .matt {
-        font-size: 75px;
-    }
-
-    .title {
-        font-size: 28px;
-    }
-
-    .brat-img > img {
-        width: 400px;
-        height: 520px;
-    }
-
-    .experience {
-        width: 180px;
-        height: 220px;
-
-        left: -35px;
-    }
-
-    .statistics {
-        grid-template-columns: repeat(2, 1fr);
-
-        row-gap: 55px;
-    }
-}
-
-
-/* =========================
-   TELEFON
-========================= */
-
-@media (max-width: 700px) {
-
-    .birat-section {
-        padding-top: 50px;
-
-        background: linear-gradient(
-            to bottom,
-            #ffffff 0,
-            #ffffff 850px,
-            #F0F3FE 850px,
-            #F0F3FE 100%
-        );
-    }
-
-    .brat {
-        flex-direction: column;
-
-        min-height: auto;
-
-        gap: 70px;
-    }
-
-    .brat-text,
-    .brat-img {
-        width: 100%;
-    }
-
-    .brat-text {
-        text-align: center;
-    }
-
-    .matt {
-        font-size: 62px;
-    }
-
-    .title {
-        font-size: 27px;
-    }
-
-    .hire {
-        margin: 40px auto 0;
-    }
-
-    .ilova {
-        justify-content: center;
-    }
-
-    .brat-img {
-        justify-content: center;
-
-        padding-bottom: 70px;
-    }
-
-    .brat-img > img {
-        width: 100%;
-        max-width: 420px;
-        height: 520px;
-
-        border-radius: 80px;
-    }
-
-    .experience {
-        width: 160px;
-        height: 200px;
-
-        left: 50%;
-        bottom: -20px;
-
-        transform: translateX(-50%);
-
-        border-radius: 80px;
-    }
-
-    .experience h2 {
-        font-size: 48px;
-    }
-
-    .experience p {
-        margin-top: 18px;
-
-        font-size: 14px;
-    }
-
-    .statistics {
-        margin-top: 80px;
-
-        grid-template-columns: repeat(2, 1fr);
-
-        text-align: center;
-
-        gap: 50px 20px;
-    }
-
-    .stat-item h2 {
-        font-size: 48px;
-    }
-
-    .stat-item p {
-        margin-top: 18px;
-
-        font-size: 14px;
-    }
-}
